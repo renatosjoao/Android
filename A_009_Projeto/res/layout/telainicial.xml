@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Consulta"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black" />
+
+    <TextView
+        android:id="@+id/t_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:selectAllOnFocus="true"
+        android:text="Nome"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/et_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:gravity="center"
+        android:hint="Digite um Nome"
+        android:inputType="textCapCharacters"
+        android:selectAllOnFocus="true"
+        android:textSize="20sp" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/t_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="number"
+        android:paddingLeft="20dp"
+        android:selectAllOnFocus="true"
+        android:text="Idade"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/et_02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:gravity="center"
+        android:hint="Digite a Idade"
+        android:inputType="number"
+        android:selectAllOnFocus="true" />
+
+    <TextView
+        android:id="@+id/t_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:selectAllOnFocus="true"
+        android:text="Cidade"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/et_03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:gravity="center"
+        android:hint="Digite uma cidade"
+        android:inputType="textCapCharacters" />
+
+    <CheckBox
+        android:id="@+id/ck_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Liberado" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black" />
+
+    <Button
+        android:id="@+id/bt_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="V. Status" />
+
+</LinearLayout>
